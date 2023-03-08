@@ -1,0 +1,23 @@
+table,th,td {
+         border: 2px solid brown;
+         padding: 4px;
+         font-family: cursive;
+      }
+      tr:hover {
+        background-color: lightskyblue;
+     }
+     table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+     }
+
+     thead {
+        background-color: limegreen;
+        color: black;
+        /* this black color overiding odd */
+     }
+
+     button, a {
+       text-decoration: none;
+     }
